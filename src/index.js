@@ -77,7 +77,7 @@ function renderCells() {
           if (win === 1) {
             document.getElementById("winnertext").innerHTML =
               winnerno + " won!";
-            alert("Player " + winnerno + " wins!");
+            alert("Player " + winnerno + " won!");
             return true;
           } else if (win === 2) {
             document.getElementById("winnertext").innerHTML = "It's a tie!";
